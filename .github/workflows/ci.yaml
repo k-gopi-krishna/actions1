@@ -1,6 +1,8 @@
 name: print hello world
 
-
+on:
+  push:
+    - '**'
 
 jobs:
   build:
