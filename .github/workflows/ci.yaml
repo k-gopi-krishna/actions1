@@ -9,4 +9,4 @@ jobs:
       - name: execute shell
         run: echo hello world
       - name: verify
-        run: ls -ltra && python3 test.py
+        run: ls .. && python3 test.py
