@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: execute shell
         run: echo hello world
+      - name: verify
+        run: ls -ltra
